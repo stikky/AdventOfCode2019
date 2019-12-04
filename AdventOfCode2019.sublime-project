@@ -1,8 +1,39 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "ecc_common_flags" : [
+            // some example includes
+            "-I/usr/include",
+            "-I$project_path/src",
+            // this is needed to include the correct headers for clang
+            "-I/usr/lib/clang/$clang_version/include",
+            // For simple projects, you can add a folder where your current file is
+            "-I$file_path",
+        ],
+    },
+    "build_systems":
+    [
+        {
+            "name": "cmake build",
+            // "shell_cmd": "if [ ! -d ${project_path}/build ]; then mkdir ${project_path}/build; fi && cd ${project_path}/build && cmake .. && make -j7",
+            // "shell_cmd": "cd ${project_path} && cmake . && make -j7 && ./build/gtest",
+            "shell_cmd": "cd ${project_path} && cmake . && make -j7",
+            // "file_regex": "/([^/:]+):(\\d+):(\\d+): ",
+            "variants": [
+                {
+                    "name": "build & run",
+                    "shell_cmd": "cd ${project_path} && cmake . && make -j7 && ./build/Day03"
+                },
+                {
+                    "name": "clean",
+                    "shell_cmd": "rm -rf ${project_path}/build && mkdir ${project_path}/build"
+                },
+            ]
+        }
+    ],
 }
