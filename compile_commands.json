@@ -1,8 +1,13 @@
 [
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
-  "command": "/usr/bin/c++      -o CMakeFiles/Day03.dir/src/Day03.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day03.cpp",
-  "file": "/home/gms/Projects/AdventOfCode2019/src/Day03.cpp"
+  "command": "/usr/bin/c++      -o CMakeFiles/Day02.dir/src/Day02.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day02.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day02.cpp"
+},
+{
+  "directory": "/home/gms/Projects/AdventOfCode2019",
+  "command": "/usr/bin/c++      -o CMakeFiles/Day04.dir/src/Day04.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day04.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day04.cpp"
 },
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
@@ -11,7 +16,7 @@
 },
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
-  "command": "/usr/bin/c++      -o CMakeFiles/Day02.dir/src/Day02.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day02.cpp",
-  "file": "/home/gms/Projects/AdventOfCode2019/src/Day02.cpp"
+  "command": "/usr/bin/c++      -o CMakeFiles/Day03.dir/src/Day03.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day03.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day03.cpp"
 }
 ]
