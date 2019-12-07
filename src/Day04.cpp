@@ -1,7 +1,7 @@
-// - It is a six-digit number.
-// - The value is within the range given in your puzzle input.
-// - Two adjacent digits are the same (like 22 in 122345).
-// - Going from left to right, the digits never decrease;
+/*
+    Advent of Code 2019
+    Day 4: Secure Container
+*/
 
 #include <iostream>
 
@@ -50,7 +50,7 @@ int main(int argc, char const *argv[])
             }
         }
 
-
+        // part 1:
         // if ( pw[0] == pw[1] || pw[1] == pw[2] || pw[2] == pw[3] || pw[3] == pw[4] || pw[4] == pw[5] )
         // {
         //     if ( pw[0] <= pw[1] && pw[1] <= pw[2] && pw[2] <= pw[3] && pw[3] <= pw[4] && pw[4] <= pw[5] ) 
