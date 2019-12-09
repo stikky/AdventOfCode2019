@@ -18,5 +18,10 @@
   "directory": "/home/gms/Projects/AdventOfCode2019",
   "command": "/usr/bin/c++      -o CMakeFiles/Day03.dir/src/Day03.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day03.cpp",
   "file": "/home/gms/Projects/AdventOfCode2019/src/Day03.cpp"
+},
+{
+  "directory": "/home/gms/Projects/AdventOfCode2019",
+  "command": "/usr/bin/c++      -o CMakeFiles/Day05.dir/src/Day05.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day05.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day05.cpp"
 }
 ]

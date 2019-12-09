@@ -27,7 +27,7 @@
             "variants": [
                 {
                     "name": "build & run",
-                    "shell_cmd": "cd ${project_path} && cmake . && make -j7 && ./build/Day04"
+                    "shell_cmd": "cd ${project_path} && cmake . && make -j7 && ./build/Day05"
                 },
                 {
                     "name": "clean",
