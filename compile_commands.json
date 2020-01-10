@@ -1,13 +1,28 @@
 [
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
-  "command": "/usr/bin/c++      -o CMakeFiles/Day02.dir/src/Day02.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day02.cpp",
-  "file": "/home/gms/Projects/AdventOfCode2019/src/Day02.cpp"
+  "command": "/usr/bin/c++      -o CMakeFiles/Day04.dir/src/Day04.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day04.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day04.cpp"
 },
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
-  "command": "/usr/bin/c++      -o CMakeFiles/Day04.dir/src/Day04.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day04.cpp",
-  "file": "/home/gms/Projects/AdventOfCode2019/src/Day04.cpp"
+  "command": "/usr/bin/c++      -o CMakeFiles/IntCodeComp.dir/src/IntCodeComp.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/IntCodeComp.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/IntCodeComp.cpp"
+},
+{
+  "directory": "/home/gms/Projects/AdventOfCode2019",
+  "command": "/usr/bin/c++      -o CMakeFiles/Day05.dir/src/Day05.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day05.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day05.cpp"
+},
+{
+  "directory": "/home/gms/Projects/AdventOfCode2019",
+  "command": "/usr/bin/c++      -o CMakeFiles/AdventHelper.dir/src/AdventHelper.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/AdventHelper.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/AdventHelper.cpp"
+},
+{
+  "directory": "/home/gms/Projects/AdventOfCode2019",
+  "command": "/usr/bin/c++      -o CMakeFiles/Day02.dir/src/Day02.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day02.cpp",
+  "file": "/home/gms/Projects/AdventOfCode2019/src/Day02.cpp"
 },
 {
   "directory": "/home/gms/Projects/AdventOfCode2019",
@@ -18,10 +33,5 @@
   "directory": "/home/gms/Projects/AdventOfCode2019",
   "command": "/usr/bin/c++      -o CMakeFiles/Day03.dir/src/Day03.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day03.cpp",
   "file": "/home/gms/Projects/AdventOfCode2019/src/Day03.cpp"
-},
-{
-  "directory": "/home/gms/Projects/AdventOfCode2019",
-  "command": "/usr/bin/c++      -o CMakeFiles/Day05.dir/src/Day05.cpp.o -c /home/gms/Projects/AdventOfCode2019/src/Day05.cpp",
-  "file": "/home/gms/Projects/AdventOfCode2019/src/Day05.cpp"
 }
 ]

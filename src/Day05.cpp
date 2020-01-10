@@ -4,33 +4,24 @@
 */
 
 #include <iostream>
-#include <fstream>
-
-
-std::string getInput(std::string file)
-{
-    std::string line;
-    std::ifstream iStream (file);
-    if ( iStream.is_open( ) )
-    {
-        while ( getline (iStream,line) )
-        {
-            std::cout << line << '\n';
-        }
-        iStream.close();
-        return "File read";
-    }
-    else
-    {
-        std::cout << "Unable to open file"; 
-        return "Unable to open file";
-    }
-}
-
+#include "AdventHelper.h"
+#include "IntCodeComp.h"
+#include <vector>
+#include <string>
 
 
 int main(int argc, char const *argv[])
 {
-    
+    // std::cout << getInput("./input/day05.txt");
+    AdventHelper ah("./input/day03.txt");
+    // ah.printLines();
+    IntCodeComp icc;
+
+    std::vector<int> mv;
+    mv = ah.seperateByComma();
+    for (std::size_t i = 0; i < mv.size(); i++)
+        std::cout << mv[i] << std::endl;
+
+
     return 0;
 }
